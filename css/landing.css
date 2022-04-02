@@ -1,19 +1,4 @@
 
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
-:root{
-    --primary-color:#6BB7FF;
-    --secondary-color:#128cff;
-    --text-color:#fafdff;
-}
-
-html{
-    font-size: 100%;
-}
 
 .landing-main{
     margin: 2rem;
@@ -55,15 +40,8 @@ html{
     align-items: flex-start;
 }
 
-.btn{
-    margin: 10px 0;
-    color: var(--text-color);
-    background-color: var(--primary-color);
-}
+
 .btn-link{
     color: var(--secondary-color)
 }
 
-.btn:hover{
-    background-color: var(--primary-color)
-}
